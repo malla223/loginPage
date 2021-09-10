@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Glory:wght@300&display=swap');
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Glory', sans-serif;
+    background: linear-gradient(#e9ae0c, #e9e8e1);
+    height: 700px;
+}
+
+form{
+    margin-top: 20px;
+    background-color: white;
+    padding: 40px 60px;
+    border-radius: 10px;
+    min-width: 300px;
+    box-shadow: 5px 5px 5px 5px black;
+}
+
+form h1{
+    text-align: center;
+    color: rgb(226, 156, 27);
+}
+
+form .inputs{
+    display: flex;
+    flex-direction: column;
+}
+
+form .inputs input[type="email"], input[type="password"]{
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    outline: none;
+    
+}
+
+input:valid{
+    border: 2px solid greenyellow;
+}
+
+.rr{
+    text-decoration: none;
+    color: rgb(226, 156, 27);
+}
+
+form .inscription {
+    font-size: 12px;
+    margin-top: 20px;
+}
+
+form .mtd{
+    font-size: 12px;
+}
+
+form .inscription p a{
+    color: rgb(226, 156, 27);
+    text-decoration: none;
+}
+
+form button{
+    padding: 15px 25px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: rgb(226, 156, 27);
+    color: white;
+    cursor: pointer;
+    outline: none;
+}
+
+form .social-media{
+    margin-top: -10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+form .social-media p{
+    padding: 5px;
+    margin-left: 10px;
+    border: 1px solid rgb(226, 156, 27);
+    border-radius: 100%;
+    width: 20px;
+    text-align: center;
+    cursor: pointer;
+}
